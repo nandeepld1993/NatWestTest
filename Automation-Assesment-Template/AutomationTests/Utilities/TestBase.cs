@@ -16,7 +16,7 @@ public class TestBase : IAsyncLifetime
         _playwright = await Playwright.CreateAsync();
         _browser = await _playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
         {
-            Headless = false
+            Headless = true
         });
         _page = await _browser.NewPageAsync();
         _page.SetDefaultTimeout(600000);
