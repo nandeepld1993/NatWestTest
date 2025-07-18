@@ -1,4 +1,4 @@
-**Natwest C# Automation Assessment Completed**
+**Natwest C# Playwright Automation Assessment Completed**
 
 * I have reutilized the Basic solution and project setup.
 * As part of UI automation below controls/pages are automated from the provided url.
@@ -25,11 +25,11 @@
     <img width="566" height="106" alt="image" src="https://github.com/user-attachments/assets/7589f046-edd1-4b8f-89b7-d5e8217fe933" />
   - Under **Tests** folder added the test cases, and we just calling all the above created methods based on the test case
     <img width="451" height="123" alt="image" src="https://github.com/user-attachments/assets/f1e5de9a-7c50-46fb-af79-cb6d2f520275" />
-* For Refit API testing of https://reqres.in used exisitng interface and added endpoint methods required for test case
+* For Refit API testing of **https://reqres.in** used exisitng interface and added endpoint methods required for test case
   <img width="461" height="121" alt="image" src="https://github.com/user-attachments/assets/0be10a1c-2ec9-4ccc-8b2d-57274b2d8df9" />
   - under the test file added all the test cases and created separate file for serialize/deserialize of the data response
 * Execution of the test cases, I have used xunit **[Fact]** attribute to differentiate the test cases
-* To run multiple test cases i have added tag/category [Trait("Category", "API/UI")] based on the filter **dotnet test --filter "Category=UI"** we can run by navigating to solution.
+* To run multiple test cases i have added tag/category [Trait("Category", "API/UI")] based on the filter **dotnet test --filter "Category=UI"** and **dotnet test --filter "Category=API** we can run by navigating to solution.
 
 
 
