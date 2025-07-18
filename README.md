@@ -1,13 +1,15 @@
 **Natwest C# Playwright Automation Assessment Completed**
 
 * I have reutilized the Basic solution and project setup.
+  <img width="1490" height="785" alt="image" src="https://github.com/user-attachments/assets/8d6ae825-8c87-4715-ac44-34617a5e4dbc" />
+
 * As part of UI automation below controls/pages are automated from the provided url.
    - Test cases for https://demoqa.com/automation-practice-form
    - Navigation to practice form page
    - Entered in the data into form
    - Clicking on Submit button
    - Validating entered data from table
-* Apart from practice from below mentioned pages also automated
+* Apart from practice form below mentioned pages also automated
   - https://demoqa.com/text-box
   - https://demoqa.com/checkbox
   - https://demoqa.com/radio-button
